@@ -4,8 +4,8 @@ from jnpr.junos import Device
 import sys
 
 
-class ClassJunosSB(object):
-    """ClassJunosSB class can retrieve JUNOS device configuration
+class ClassJunosTool(object):
+    """ClassJunosTool class can retrieve JUNOS device configuration
     """
 
     def __init__(self, user_name, password):
